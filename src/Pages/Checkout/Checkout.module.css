@@ -1,0 +1,75 @@
+.stepperHead{
+    width: 25%;
+    position: relative;
+}
+.stepperHead::before{
+    content: "";
+    background-color: rgb(232, 232, 232);
+    width: 60%;
+    height: 2px;
+    position: absolute;
+    top: 16px;
+    right: 0;
+}
+.stepperMain{
+    width: 200px;
+    text-align: center;
+}
+.count{
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: rgb(232, 232, 232);
+    margin: 0 auto;
+}
+.count p{
+    margin-bottom: 0;
+    font-weight: 600;
+}
+.stepperMain > p:last-of-type{
+    margin-top: 15px;
+    font-weight: 500;
+    color: var(--black-color);
+}
+.stepper__wrapper{
+    display: flex;
+    padding-left: 50px;
+    margin-top: 40px;
+}
+.stepper__wrapper > div:last-child::before{
+    display: none;
+}
+.activeStepper::before{
+    background-color: var(--primary-color) !important;
+}
+.activeStepper .count{
+    border: 2px solid var(--black-color);
+    background-color: transparent !important;
+}
+.activeStepper .stepperMain > p:last-of-type{
+    font-weight: 600;
+}
+.leftHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid var(--black-color);
+    border-radius: 5px;
+    padding: 15px 20px;
+}
+.leftHeader p{
+    margin-bottom: 0;
+}
+.leftHeader > div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.leftHeader > p{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}

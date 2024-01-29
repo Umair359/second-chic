@@ -1,0 +1,26 @@
+.more-prooducts {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  height: 100px;
+}
+.more-prooducts > img {
+  height: 100%;
+  border: 1px solid gainsboro;
+  border-radius: 5px;
+}
+.more-prooducts > div > div {
+  display: flex;
+  gap: 5px;
+}
+.more-prooducts > div > div > svg {
+  color: #999999;
+}
+.more-prooducts > div > p {
+  font-size: 14px;
+  font-weight: 500;
+  color: #999999;
+}
+.more-prooducts > div > p:nth-child(2) {
+  color: #444444 !important;
+}

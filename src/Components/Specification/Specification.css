@@ -1,0 +1,11 @@
+.specification {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.specification th,
+.specification td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}

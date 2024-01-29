@@ -1,0 +1,375 @@
+{
+  "products": [
+    {
+      "bannerImage": "/electronics/bannerImage2.jpg",
+      "image": [
+        "electronics/image1.jpg",
+        "electronics/image2.jpg",
+        "electronics/image3.jpg"
+      ],
+      "title": "Smart 4K Ultra HD TV",
+      "category": "Electronics",
+      "subcategory": "ObjectId(78901234asdf123sdf)",
+      "brand": "Sony",
+      "averageRating": 4.5,
+      "items": [
+        {
+          "color": "black",
+          "sizes": [
+            { "size": "55-inch", "price": 899.99, "quantity": 10 },
+            { "size": "65-inch", "price": 1299.99, "quantity": 5 },
+            { "size": "75-inch", "price": 1999.99, "quantity": 3 }
+          ],
+          "image": "electronics/image1.jpg"
+        },
+        {
+          "color": "silver",
+          "sizes": [
+            { "size": "55-inch", "price": 949.99, "quantity": 4 },
+            { "size": "65-inch", "price": 1399.99, "quantity": 3 },
+            { "size": "75-inch", "price": 2099.99, "quantity": 1 }
+          ],
+          "image": "electronics/image3.jpg"
+        }
+      ],
+      "description": "Immerse yourself in stunning visuals with our Smart 4K Ultra HD TV. This TV delivers crystal-clear images and smart features for an unparalleled entertainment experience. With a sleek design and multiple size options, it's perfect for any living space.",
+      "totalReviews": 150
+    },
+    {
+      "bannerImage": "/electronics/bannerImage_gaming_laptop.jpg",
+      "image": [
+        "electronics/gaming_laptop_image1.jpg",
+        "electronics/gaming_laptop_image2.jpg",
+        "electronics/gaming_laptop_image3.jpg"
+      ],
+      "title": "Gamer's Delight Laptop",
+      "category": "Electronics",
+      "subcategory": "ObjectId(56789012asdf123sdf)",
+      "brand": "Dell",
+      "averageRating": 4.2,
+      "items": [
+        {
+          "color": "black",
+          "sizes": [
+            { "size": "15-inch", "price": 1299.99, "quantity": 8 },
+            { "size": "17-inch", "price": 1499.99, "quantity": 5 },
+            { "size": "20-inch", "price": 1799.99, "quantity": 2 }
+          ],
+          "image": "electronics/gaming_laptop_image1.jpg"
+        },
+        {
+          "color": "red",
+          "sizes": [
+            { "size": "15-inch", "price": 1349.99, "quantity": 6 },
+            { "size": "17-inch", "price": 1549.99, "quantity": 4 },
+            { "size": "20-inch", "price": 1849.99, "quantity": 1 }
+          ],
+          "image": "electronics/gaming_laptop_image3.jpg"
+        }
+      ],
+      "description": "Unleash the power of gaming with our Gamer's Delight Laptop. This high-performance laptop is designed for immersive gaming experiences, featuring a sleek design and multiple size options to suit your preferences.",
+      "totalReviews": 120
+    },
+    {
+      "bannerImage": "/fashion/bannerImage_leather_watch.jpg",
+      "image": [
+        "fashion/leather_watch_image1.jpg",
+        "fashion/leather_watch_image2.jpg",
+        "fashion/leather_watch_image3.jpg"
+      ],
+      "title": "Timeless Elegance Leather Watch",
+      "category": "Fashion",
+      "subcategory": "ObjectId(12345098asdf123sdf)",
+      "brand": "Fossil",
+      "averageRating": 4.8,
+      "items": [
+        {
+          "color": "brown",
+          "sizes": [
+            { "size": "Small", "price": 89.99, "quantity": 15 },
+            { "size": "Medium", "price": 99.99, "quantity": 8 },
+            { "size": "Large", "price": 109.99, "quantity": 4 }
+          ],
+          "image": "fashion/leather_watch_image1.jpg"
+        },
+        {
+          "color": "black",
+          "sizes": [
+            { "size": "Small", "price": 94.99, "quantity": 12 },
+            { "size": "Medium", "price": 104.99, "quantity": 6 },
+            { "size": "Large", "price": 114.99, "quantity": 3 }
+          ],
+          "image": "fashion/leather_watch_image3.jpg"
+        }
+      ],
+      "description": "Add a touch of timeless elegance to your style with our Classic Leather Watch. Crafted with precision and sophistication, this watch complements any outfit, making it a perfect accessory for every occasion.",
+      "totalReviews": 90
+    },
+    {
+      "bannerImage": "/electronics/bannerImage_fitness_tracker.jpg",
+      "image": [
+        "electronics/fitness_tracker_image1.jpg",
+        "electronics/fitness_tracker_image2.jpg",
+        "electronics/fitness_tracker_image3.jpg"
+      ],
+      "title": "Smart Fitness Tracker",
+      "category": "Electronics",
+      "subcategory": "ObjectId(87654321asdf123sdf)",
+      "brand": "Fitbit",
+      "averageRating": 4.6,
+      "items": [
+        {
+          "color": "blue",
+          "sizes": [
+            { "size": "Small", "price": 69.99, "quantity": 20 },
+            { "size": "Medium", "price": 79.99, "quantity": 10 },
+            { "size": "Large", "price": 89.99, "quantity": 5 }
+          ],
+          "image": "electronics/fitness_tracker_image1.jpg"
+        },
+        {
+          "color": "purple",
+          "sizes": [
+            { "size": "Small", "price": 74.99, "quantity": 15 },
+            { "size": "Medium", "price": 84.99, "quantity": 8 },
+            { "size": "Large", "price": 94.99, "quantity": 3 }
+          ],
+          "image": "electronics/fitness_tracker_image3.jpg"
+        }
+      ],
+      "description": "Achieve your fitness goals with our Smart Fitness Tracker. This sleek and advanced tracker monitors your activity, heart rate, and more, helping you stay on top of your health and wellness journey.",
+      "totalReviews": 110
+    },
+    {
+      "bannerImage": "/electronics/bannerImage_headphones.jpg",
+      "image": [
+        "electronics/headphones_image1.jpg",
+        "electronics/headphones_image2.jpg",
+        "electronics/headphones_image3.jpg"
+      ],
+      "title": "Premium Noise-Canceling Headphones",
+      "category": "Electronics",
+      "subcategory": "ObjectId(34567890asdf123sdf)",
+      "brand": "Bose",
+      "averageRating": 4.7,
+      "items": [
+        {
+          "color": "black",
+          "sizes": [
+            { "size": "Over-Ear", "price": 249.99, "quantity": 12 },
+            { "size": "On-Ear", "price": 199.99, "quantity": 8 }
+          ],
+          "image": "electronics/headphones_image1.jpg"
+        },
+        {
+          "color": "silver",
+          "sizes": [
+            { "size": "Over-Ear", "price": 259.99, "quantity": 10 },
+            { "size": "On-Ear", "price": 209.99, "quantity": 6 }
+          ],
+          "image": "electronics/headphones_image3.jpg"
+        }
+      ],
+      "description": "Immerse yourself in pure sound with our Premium Noise-Canceling Headphones. Designed for ultimate comfort and audio quality, these headphones provide a seamless listening experience.",
+      "totalReviews": 95
+    },
+    {
+      "bannerImage": "/fashion/bannerImage_backpack.jpg",
+      "image": [
+        "fashion/backpack_image1.jpg",
+        "fashion/backpack_image2.jpg",
+        "fashion/backpack_image3.jpg"
+      ],
+      "title": "Urban Explorer Backpack",
+      "category": "Fashion",
+      "subcategory": "ObjectId(67890123asdf123sdf)",
+      "brand": "Nike",
+      "averageRating": 4.4,
+      "items": [
+        {
+          "color": "gray",
+          "sizes": [
+            { "size": "Small", "price": 59.99, "quantity": 15 },
+            { "size": "Medium", "price": 69.99, "quantity": 8 }
+          ],
+          "image": "fashion/backpack_image1.jpg"
+        },
+        {
+          "color": "blue",
+          "sizes": [
+            { "size": "Small", "price": 64.99, "quantity": 12 },
+            { "size": "Medium", "price": 74.99, "quantity": 6 }
+          ],
+          "image": "fashion/backpack_image3.jpg"
+        }
+      ],
+      "description": "Elevate your style with our Urban Explorer Backpack. Whether you're heading to work or on a weekend adventure, this stylish and functional backpack is the perfect companion.",
+      "totalReviews": 80
+    },
+    {
+      "bannerImage": "/home/bannerImage_espresso_machine.jpg",
+      "image": [
+        "home/espresso_machine_image1.jpg",
+        "home/espresso_machine_image2.jpg",
+        "home/espresso_machine_image3.jpg"
+      ],
+      "title": "Italian Espresso Master",
+      "category": "Home & Kitchen",
+      "subcategory": "ObjectId(90123456asdf123sdf)",
+      "brand": "De'Longhi",
+      "averageRating": 4.9,
+      "items": [
+        {
+          "color": "silver",
+          "sizes": [
+            { "size": "Classic", "price": 299.99, "quantity": 8 },
+            { "size": "Premium", "price": 399.99, "quantity": 5 }
+          ],
+          "image": "home/espresso_machine_image1.jpg"
+        },
+        {
+          "color": "black",
+          "sizes": [
+            { "size": "Classic", "price": 309.99, "quantity": 6 },
+            { "size": "Premium", "price": 419.99, "quantity": 3 }
+          ],
+          "image": "home/espresso_machine_image3.jpg"
+        }
+      ],
+      "description": "Indulge in the rich flavor of authentic Italian espresso with our Espresso Machine. This sleek and powerful machine brings the cafe experience to your home.",
+      "totalReviews": 110
+    },
+    {
+      "bannerImage": "/electronics/bannerImage_dslr_camera.jpg",
+      "image": [
+        "electronics/dslr_camera_image1.jpg",
+        "electronics/dslr_camera_image2.jpg",
+        "electronics/dslr_camera_image3.jpg"
+      ],
+      "title": "Professional DSLR Camera Kit",
+      "category": "Electronics",
+      "subcategory": "ObjectId(23456789asdf123sdf)",
+      "brand": "Canon",
+      "averageRating": 4.6,
+      "items": [
+        {
+          "color": "black",
+          "sizes": [
+            { "size": "Standard", "price": 1499.99, "quantity": 10 },
+            { "size": "Deluxe", "price": 1999.99, "quantity": 5 }
+          ],
+          "image": "electronics/dslr_camera_image1.jpg"
+        },
+        {
+          "color": "silver",
+          "sizes": [
+            { "size": "Standard", "price": 1599.99, "quantity": 8 },
+            { "size": "Deluxe", "price": 2099.99, "quantity": 3 }
+          ],
+          "image": "electronics/dslr_camera_image3.jpg"
+        }
+      ],
+      "description": "Capture stunning moments with our Professional DSLR Camera Kit. Packed with features and exceptional image quality, this camera is a must-have for photography enthusiasts.",
+      "totalReviews": 95
+    },
+    {
+      "bannerImage": "/outdoors/bannerImage_camping_tent.jpg",
+      "image": [
+        "outdoors/camping_tent_image1.jpg",
+        "outdoors/camping_tent_image2.jpg",
+        "outdoors/camping_tent_image3.jpg"
+      ],
+      "title": "Durable Camping Adventure Tent",
+      "category": "Outdoors",
+      "subcategory": "ObjectId(34567890asdf123sdf)",
+      "brand": "The North Face",
+      "averageRating": 4.8,
+      "items": [
+        {
+          "color": "green",
+          "sizes": [
+            { "size": "2-Person", "price": 149.99, "quantity": 12 },
+            { "size": "4-Person", "price": 199.99, "quantity": 8 }
+          ],
+          "image": "outdoors/camping_tent_image1.jpg"
+        },
+        {
+          "color": "blue",
+          "sizes": [
+            { "size": "2-Person", "price": 159.99, "quantity": 10 },
+            { "size": "4-Person", "price": 209.99, "quantity": 5 }
+          ],
+          "image": "outdoors/camping_tent_image3.jpg"
+        }
+      ],
+      "description": "Embark on a camping adventure with our Durable Camping Adventure Tent. This reliable and spacious tent ensures a comfortable and secure outdoor experience.",
+      "totalReviews": 80
+    },
+    {
+      "bannerImage": "/home/bannerImage_smart_thermostat.jpg",
+      "image": [
+        "home/smart_thermostat_image1.jpg",
+        "home/smart_thermostat_image2.jpg",
+        "home/smart_thermostat_image3.jpg"
+      ],
+      "title": "Energy-Efficient Smart Thermostat",
+      "category": "Home & Kitchen",
+      "subcategory": "ObjectId(45678901asdf123sdf)",
+      "brand": "Nest",
+      "averageRating": 4.7,
+      "items": [
+        {
+          "color": "white",
+          "sizes": [
+            { "size": "Standard", "price": 129.99, "quantity": 15 },
+            { "size": "Premium", "price": 159.99, "quantity": 8 }
+          ],
+          "image": "home/smart_thermostat_image1.jpg"
+        },
+        {
+          "color": "black",
+          "sizes": [
+            { "size": "Standard", "price": 139.99, "quantity": 12 },
+            { "size": "Premium", "price": 169.99, "quantity": 6 }
+          ],
+          "image": "home/smart_thermostat_image3.jpg"
+        }
+      ],
+      "description": "Take control of your home's climate with our Energy-Efficient Smart Thermostat. This smart device optimizes energy usage while keeping your living space comfortable.",
+      "totalReviews": 110
+    },
+    {
+      "bannerImage": "/electronics/bannerImage_bluetooth_speaker.jpg",
+      "image": [
+        "electronics/bluetooth_speaker_image1.jpg",
+        "electronics/bluetooth_speaker_image2.jpg",
+        "electronics/bluetooth_speaker_image3.jpg"
+      ],
+      "title": "Compact Portable Bluetooth Speaker",
+      "category": "Electronics",
+      "subcategory": "ObjectId(56789012asdf123sdf)",
+      "brand": "JBL",
+      "averageRating": 4.5,
+      "items": [
+        {
+          "color": "red",
+          "sizes": [
+            { "size": "Standard", "price": 59.99, "quantity": 20 },
+            { "size": "Premium", "price": 79.99, "quantity": 10 }
+          ],
+          "image": "electronics/bluetooth_speaker_image1.jpg"
+        },
+        {
+          "color": "blue",
+          "sizes": [
+            { "size": "Standard", "price": 64.99, "quantity": 15 },
+            { "size": "Premium", "price": 84.99, "quantity": 8 }
+          ],
+          "image": "electronics/bluetooth_speaker_image3.jpg"
+        }
+      ],
+      "description": "Enjoy your favorite tunes on the go with our Compact Portable Bluetooth Speaker. This sleek and powerful speaker delivers impressive sound quality in a small package.",
+      "totalReviews": 95
+    }
+  ]
+}

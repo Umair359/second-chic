@@ -1,0 +1,76 @@
+.home-trending {
+  display: flex;
+  gap: 30px;
+  margin-top: 100px;
+}
+.home-trending-card {
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0)),
+    url("/public/images/trendingBg.png");
+  width: 50%;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 0 100px 180px;
+  color: white;
+}
+.home-trending-card > div > h2 {
+  font-size: 30px;
+  margin: 15px 0;
+}
+.home-trending-card > div > h4 {
+  font-size: 22px;
+  font-weight: 400;
+  width: 450px;
+  margin-bottom: 15px;
+}
+.home-trending-card > div > button {
+  padding: 10px 20px;
+  border: none;
+  letter-spacing: 1px;
+  color: var(--primary-color);
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 16px;
+  transition: all 0.5s ease;
+}
+.home-trending-card > div > button:hover {
+  cursor: pointer;
+  background-color: var(--primary-color);
+  color: white;
+}
+.home-trending-card > div > button:active {
+  transform: scale(90%);
+}
+
+@media (max-width: 1250px) {
+  .home-trending-card {
+    width: 50%;
+
+    padding: 0 0 200px 40px;
+  }
+}
+@media (max-width: 1024px) {
+  .home-trending {
+    flex-direction: column;
+  }
+  .home-trending-card {
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .home-trending-card > div > h2 {
+    font-size: 20px;
+    margin: 10px 0;
+  }
+  .home-trending-card > div > h4 {
+    font-size: 16px;
+
+    width: 280px;
+    margin-bottom: 10px;
+  }
+  .home-trending-card > div > button {
+    padding: 5px 10px;
+    font-size: 13px;
+  }
+}

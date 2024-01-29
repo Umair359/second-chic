@@ -1,0 +1,122 @@
+.track-order-items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 140px;
+}
+.track-order-items > div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: 50px;
+}
+.track-order-items > div > h4 {
+  color: #444444;
+  font-size: 25px;
+  letter-spacing: 0.7px;
+  font-weight: 700;
+}
+.track-order-items > div > h1 {
+  font-size: 50px;
+  letter-spacing: 1.6px;
+}
+.track-order-items > div > h1 > span {
+  color: var(--primary-color);
+}
+.track-order-items > div > div {
+  margin-top: 15px;
+  border: 2px solid gainsboro;
+  padding: 1px;
+  border-radius: 5px;
+  width: 93%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.track-order-items > div > div > input {
+  border: none;
+  outline: none;
+  font-size: 22px;
+  font-weight: 600;
+  padding: 15px;
+  width: calc(100% - 50px);
+}
+.track-order-items > div > div > button {
+  background-color: var(--primary-color);
+  border: none;
+  outline: none;
+  margin: 5px;
+  height: 50px;
+  aspect-ratio: 1/1;
+  border-radius: 5px;
+}
+.track-order-items > div > div > button:hover {
+  background-color: #ca2f2fb4;
+  cursor: pointer;
+}
+.track-order-items > div > h5 {
+  font-size: 22px;
+  margin-top: 60px;
+  color: #888888;
+}
+@media (max-width: 1600px) {
+  .track-order-items {
+    margin-top: 140px;
+  }
+  .track-order-items > div {
+    gap: 8px;
+    margin-left: 0px;
+  }
+  .track-order-items > div > h4 {
+    font-size: 18px;
+  }
+  .track-order-items > div > h1 {
+    font-size: 40px;
+  }
+  .track-order-items > div > div {
+    width: 83%;
+  }
+  .track-order-items > div > h5 {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  .track-order-items > div > img {
+    width: 600px;
+  }
+}
+@media (max-width: 1024px) {
+  .track-order-items {
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+  }
+  .track-order-items > div > img {
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+  }
+}
+@media (max-width: 576px) {
+  .track-order-items > div > h4 {
+    font-size: 14px;
+  }
+  .track-order-items > div > div > input {
+    font-size: 16px;
+  }
+  .track-order-items > div > h5 {
+    font-size: 13px;
+  }
+  .track-order-items > div > h1 {
+    font-size: 26px;
+  }
+  .track-order-items > div > div > input {
+    padding: 5px;
+  }
+  .track-order-items > div > div > button {
+    height: 30px;
+  }
+  .track-order-items > div > div > button > img {
+    width: 10px;
+    height: 10px;
+  }
+}

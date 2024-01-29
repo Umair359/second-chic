@@ -1,0 +1,81 @@
+.header {
+  width: 100vw;
+  overflow-x: hidden;
+  background-color: white;
+}
+.header-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-item img:hover {
+  cursor: pointer;
+}
+.header-item > div {
+  display: flex;
+  gap: 70px;
+  align-items: center;
+}
+.header-item > div > div:first-child {
+  background-color: black;
+  display: flex;
+  border-radius: 6px;
+  overflow: hidden;
+  align-items: center;
+}
+.header-item > div > div:first-child > input {
+  width: 470px;
+  height: 45px;
+  padding: 10px;
+  outline: none;
+  border: none;
+  border: 1px solid gainsboro;
+}
+.header-item > div > div:first-child > img {
+  height: 40px;
+  width: 50px;
+  padding: 7px 12px;
+}
+.header-item > div > div:last-child {
+  padding: 8px 18px;
+  border-radius: 6px;
+  border: 1px solid gainsboro;
+  color: var(--primary-color);
+  display: flex;
+}
+.header-item > div > div:last-child > button {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  color: var(--primary-color);
+  letter-spacing: 0.8px;
+  font-size: 16px;
+  font-weight: 700;
+}
+@media (max-width: 1250px) {
+  .header-item img {
+    width: 200px;
+  }
+  .header-item > div > div:first-child > input {
+    width: 180px;
+    height: 30px;
+  }
+  .header-item > div > div:first-child > img {
+    height: 30px;
+    width: 40px;
+  }
+  .header-item > div > div:last-child > button {
+    font-size: 13px;
+  }
+}
+@media (max-width: 768px) {
+  .header-item {
+    padding: 40px 0;
+  }
+  .header-item > div > div:first-child {
+    display: none;
+  }
+  .header-item > div > div:last-child {
+    display: none;
+  }
+}

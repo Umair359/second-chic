@@ -1,0 +1,91 @@
+:root {
+  --primary-color: #ca302f;
+  --secondary-color: #bababa0d;
+  --white-color: #ffff;
+  --black-color: #000000;
+}
+/* font family------ */
+@font-face {
+  font-family: "Gilroy";
+  src: url("/public/fonts/Gilroy-Black.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url("/public/fonts/Gilroy-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url("/public/fonts/Gilroy-Semibold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url("/public/fonts/Gilroy-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url("/public/fonts/Gilroy-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Gilroy";
+}
+body {
+  overflow-x: hidden;
+}
+
+.my-container {
+  width: 1600px;
+  margin: auto;
+  overflow-x: hidden;
+}
+
+@media (max-width: 1600px) {
+  .my-container {
+    width: 1400px;
+  }
+}
+@media (max-width: 1440px) {
+  .my-container {
+    width: 1200px;
+  }
+}
+@media (max-width: 1250px) {
+  .my-container {
+    width: 1000px;
+  }
+}
+@media (max-width: 1024px) {
+  .my-container {
+    width: 700px;
+  }
+}
+@media (max-width: 768px) {
+  .my-container {
+    width: 550px;
+  }
+}
+@media (max-width: 576px) {
+  .my-container {
+    width: 300px;
+  }
+}
+.graystar {
+  fill: #999999;
+}

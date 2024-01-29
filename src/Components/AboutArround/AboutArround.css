@@ -1,0 +1,57 @@
+.about-around-section1 > h4 {
+  font-size: 26px;
+  text-align: center;
+}
+.about-around-section1 > h2 {
+  font-size: 40px;
+  text-align: center;
+}
+.about-around-section1 > h2 > span {
+  color: var(--primary-color);
+}
+.about-around-section1 > p {
+  font-size: 20px;
+  width: 950px;
+  text-align: center;
+  margin: auto;
+  margin-top: 60px;
+  color: gray;
+}
+.about-around-section2 {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.about-around-section2 > img {
+  width: 100%;
+}
+.about-around-section2 > button {
+  background-color: black;
+  color: white;
+  margin: auto;
+  padding: 15px 80px;
+  border: none;
+  border-radius: 6px;
+  transition: all 0.5s ease;
+}
+.about-around-section2 > button:hover {
+  background-color: #444444;
+  cursor: pointer;
+}
+.about-around-section2 > button:active {
+  transform: scale(90%);
+}
+@media (max-width: 1250px) {
+  .about-around-section1 > h4 {
+    font-size: 20px;
+  }
+  .about-around-section1 > h2 {
+    font-size: 26px;
+  }
+  .about-around-section1 > p {
+    font-size: 16px;
+    width: 280px;
+    margin-top: 20px;
+  }
+}

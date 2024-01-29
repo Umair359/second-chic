@@ -1,0 +1,29 @@
+.about-speciality-card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+  width: 360px;
+}
+.about-speciality-card > h2 {
+  font-size: 30px;
+  height: 20%;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 60px;
+}
+.about-speciality-card > p {
+  text-align: center;
+  padding: 20px 10px;
+  font-size: 22px;
+  font-weight: 600;
+  padding-bottom: 40px;
+}
+.about-speciality-card > img {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+}

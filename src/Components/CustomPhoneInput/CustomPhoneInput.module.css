@@ -1,0 +1,17 @@
+.phoneInputMain label{
+    font-weight: 600;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+.phoneInputMain input{
+    font-size: 16px !important;
+    font-weight: 600;
+}
+.phoneInputMain input::placeholder{
+    font-size: 15px;
+    font-weight: 500;
+    box-shadow: none;
+}
+.phoneInputMain input:focus{
+    box-shadow: none !important;
+}

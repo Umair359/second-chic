@@ -1,0 +1,84 @@
+.favourite-card {
+  width: 330px;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin: 30px;
+}
+.favourite-card:hover {
+  cursor: pointer;
+}
+.favourite-card-image {
+  background-image: url("/public/images/productItemBG.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 330px;
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+}
+.favourite-card-image > div > p {
+  color: white;
+  background-color: var(--primary-color);
+  padding: 5px 15px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  font-weight: 500;
+  text-align: center;
+  font-size: 16px;
+  width: fit-content;
+  letter-spacing: 1px;
+}
+.favourite-card-image > div > p:last-child {
+  background-color: black;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  padding: 5px 10px;
+}
+.favourite-card-image > div:last-child {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+.favourite-card-text {
+  padding: 10px;
+}
+.favourite-card-text > p {
+  font-size: 21px;
+  font-weight: 500;
+  padding-bottom: 15px;
+}
+.favourite-card-text > h2 {
+  font-size: 26px;
+  padding-bottom: 5px;
+}
+.favourite-card-text > div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.favourite-card-text > div > h4,
+.favourite-card-text h4 {
+  font-size: 22px;
+  font-weight: 400;
+  word-spacing: 5px;
+  padding: 2.5px 0;
+}
+
+@media (max-width: 1250px) {
+  .favourite-card {
+    margin: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .favourite-card {
+    width: 280px;
+  }
+}
+@media (max-width: 576px) {
+}

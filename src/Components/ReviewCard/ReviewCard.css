@@ -1,0 +1,30 @@
+.review-card {
+  display: flex;
+  gap: 20px;
+}
+.review-card > div:first-child {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+.review-card > div:first-child > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.review-card > div:last-child {
+  align-self: center;
+}
+.review-card > div:last-child > h4 {
+  font-size: 20px;
+  color: #444444;
+  font-weight: 600;
+}
+.review-card > div:last-child > p {
+  font-size: 13px;
+}
+.review-card > div:last-child > div {
+  width: fit-content;
+  display: flex;
+  gap: 2px;
+}

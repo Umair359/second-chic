@@ -1,0 +1,39 @@
+.inputContainer label {
+  font-weight: 600;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+.inputMainWithIcon {
+  position: relative;
+}
+.inputMainWithIcon input {
+  border: 2px solid gainsboro;
+  background: var(--white-color);
+  color: var(--black-color);
+  padding: 15px 0px 15px 25px;
+  outline: none;
+  width: 100%;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 3px;
+  
+}
+.inputMainWithIcon input::placeholder {
+  font-size: 15px;
+  font-weight: 600;
+}
+.leftIconMain {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  font-size: 16px;
+  color: var(--text-color);
+}
+.eyeicon {
+  position: absolute;
+  right: 10px;
+  font-size: 22px;
+  top: 32%;
+  color: lightgray;
+  cursor: pointer;
+}

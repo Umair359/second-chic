@@ -1,0 +1,59 @@
+.home-banner {
+  background-image: url("/public/images/homeBanner.png");
+  background-size: cover;
+  height: calc(100vh - 185px);
+  width: 100vw;
+  min-height: 600px;
+  background-repeat: no-repeat;
+  background-position-x: center;
+}
+.home-banner-item {
+  padding-top: 250px;
+  width: 570px;
+}
+.home-banner-item > h4 {
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  width: 450px;
+}
+.home-banner-item > h1 {
+  font-size: 60px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+.home-banner-item > button {
+  margin-top: 30px;
+  border: none;
+  padding: 15px 45px;
+  font-size: 16px;
+  color: white;
+  background-color: black;
+  font-weight: 500;
+  border-radius: 10px;
+  transition: all 0.5s ease;
+}
+.home-banner-item > button:hover {
+  background-color: #222222;
+  cursor: pointer;
+}
+.home-banner-item > button:active {
+  transform: scale(90%);
+}
+@media (max-width: 1250px) {
+  .home-banner-item {
+    padding-top: 100px;
+    width: 320px;
+  }
+  .home-banner-item > h4 {
+    font-size: 16px;
+    width: 320px;
+  }
+  .home-banner-item > h1 {
+    font-size: 30px;
+  }
+  .home-banner-item > button {
+    font-size: 13px;
+    padding: 10px 20px;
+  }
+}

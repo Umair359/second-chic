@@ -1,0 +1,35 @@
+.popular-card {
+  width: 360px;
+}
+.popular-card:hover {
+  cursor: pointer;
+}
+.popular-card > div:first-child {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  background-image: url("/public/images/popularCard.png");
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.popular-card > div:first-child > svg {
+  width: 25px;
+  height: 25px;
+  margin: 20px 20px 0 0;
+}
+.popular-card > div:last-child {
+  padding: 10px 20px;
+}
+.popular-card > div:last-child > p {
+  font-size: 16px;
+  color: grey;
+  padding-bottom: 10px;
+}
+.popular-card > div:last-child > button {
+  padding: 8px;
+  color: var(--primary-color);
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}

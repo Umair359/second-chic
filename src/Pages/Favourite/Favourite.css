@@ -1,0 +1,35 @@
+.favourite-item {
+  margin-top: 20px;
+}
+.favourite-item > h2 {
+  font-size: 30px;
+  letter-spacing: 1.2px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid gainsboro;
+}
+.favourite-card-container {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+@media (max-width: 1600px) {
+  .favourite-card-container {
+    grid-template-columns: auto auto auto;
+  }
+}
+@media (max-width: 1250px) {
+  .favourite-card-container {
+    grid-template-columns: auto auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .favourite-card-container {
+    grid-template-columns: auto;
+    margin: auto;
+    width: fit-content;
+  }
+}
+@media (max-width: 576px) {
+}

@@ -1,0 +1,19 @@
+.input-feild {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 20px;
+  width: calc(50% - 10px);
+}
+.input-feild > label {
+  color: #222222;
+  font-size: 18px;
+  font-weight: 600;
+}
+.input-feild > input {
+  padding: 18px;
+  font-size: 18px;
+  font-weight: 600;
+  border: 2px solid gainsboro;
+  border-radius: 3px;
+}

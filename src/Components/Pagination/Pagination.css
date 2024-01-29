@@ -1,0 +1,31 @@
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.pagination > button {
+  padding: 20px 26px;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+}
+.pagination > p {
+  font-size: 18px;
+}
+.pagination-active-btn {
+  font-weight: 800;
+  color: white;
+  background-color: var(--primary-color);
+}
+
+@media (max-width: 768px) {
+  .pagination > button {
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 13px;
+  }
+  .pagination > p {
+    font-size: 13px;
+  }
+}

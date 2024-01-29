@@ -1,0 +1,111 @@
+.navbar {
+  background-color: var(--secondary-color);
+}
+.navbar-item {
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+}
+.navbar-item > div:first-child {
+  display: flex;
+  align-items: center;
+}
+.navbar-item > div:first-child > a {
+  color: black;
+  padding: 0 20px;
+  border-right: 1px solid gainsboro;
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 16px;
+}
+.navbar-item > div:first-child > div {
+  display: flex;
+  align-items: center;
+}
+.navbar-item > div:first-child > div > div {
+  margin-left: 35px;
+  border-radius: 50%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid gainsboro;
+}
+.navbar-item > div:first-child > div > div:hover {
+  cursor: pointer;
+}
+.navbar-item > div:last-child {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.navbar-item > div:last-child > button {
+  background-color: var(--primary-color);
+  border: none;
+  outline: none;
+  padding: 11px 40px;
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+  border-radius: 10px;
+}
+.navbar-item > div:last-child > div {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.navbar-item > div:last-child > div > a {
+  color: black;
+  text-decoration: none;
+  font-weight: 500;
+}
+.navbar-item > div:last-child > a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+@media (max-width: 1250px) {
+  .navbar-item > div:first-child > a {
+    padding: 0 10px;
+  }
+  .navbar-item > div:first-child > div > div {
+    margin-left: 15px;
+    border-radius: 50%;
+  }
+  .navbar-item > div:last-child > button {
+    font-size: 13px;
+    padding: 10px 20px;
+  }
+}
+@media (max-width: 1024px) {
+  .navbar-item > div:first-child > a {
+    padding: 0 5px;
+    font-size: 13px;
+  }
+  .navbar-item > div:first-child > div > div {
+    margin-left: 10px;
+    border-radius: 50%;
+    padding: 5px;
+  }
+  .navbar-item > div:first-child > div > div > img {
+    width: 15px;
+  }
+  .navbar-item > div:last-child > button {
+    padding: 10px;
+    margin-left: 10px;
+  }
+  .navbar-item > div:last-child > div {
+    gap: 4px;
+  }
+  .navbar-item > div:last-child > div > a {
+    font-size: 13px;
+  }
+  .navbar-item > div:last-child > a {
+    font-size: 13px;
+  }
+}
+@media (max-width: 768px) {
+  .navbar {
+    display: none;
+  }
+}
