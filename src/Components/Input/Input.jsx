@@ -18,7 +18,9 @@ const Input = ({
 
   return (
     <div className={[classes.inputContainer, className].join(" ")}>
+      {label && (
       <label>{label && label}</label>
+      )}
       <div className={classes.inputMainWithIcon}>
         {type == "password" &&
           (open == "close" ? (

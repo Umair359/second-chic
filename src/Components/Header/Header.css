@@ -2,11 +2,15 @@
   width: 100vw;
   overflow-x: hidden;
   background-color: white;
+  padding-top: 10px;
 }
 .header-item {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+.header-item img{
+  width: 200px;
 }
 .header-item img:hover {
   cursor: pointer;

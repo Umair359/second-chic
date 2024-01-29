@@ -1,6 +1,6 @@
 import React from "react";
 import classes from "./Button.module.css";
-const Button = ({ label, className, onClick , disabled , customStyle}) => {
+const Button = ({ label, className, onClick , disabled , customStyle , children}) => {
   return (
     <>
       <button
@@ -10,6 +10,7 @@ const Button = ({ label, className, onClick , disabled , customStyle}) => {
         className={[classes.customBtn, className && className].join(" ")}
       >
         {label && label}
+        {children}
       </button>
     </>
   );

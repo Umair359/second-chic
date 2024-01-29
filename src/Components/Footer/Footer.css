@@ -42,6 +42,9 @@
   align-items: flex-start;
   gap: 40px;
 }
+.footer-section2-items-section1 > img{
+  width: 250px;
+}
 .footer-section2-items-section1 > p {
   font-size: 16px;
   width: 380px;

@@ -1,0 +1,24 @@
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid lightgray;
+    width: fit-content;
+}
+.main p{
+    margin-bottom: 0;
+    color: var(--black-color);
+    font-weight: 600;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.main p:first-child{
+    cursor: pointer;
+}
+.main p:last-child{
+    cursor: pointer;
+}

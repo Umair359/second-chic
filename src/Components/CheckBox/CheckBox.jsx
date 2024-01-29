@@ -7,7 +7,7 @@ const CheckBox = ({
   value,
   index,
   isLabelShow = true,
-  bgColor = "var(--primary-color)",
+  bgColor,
 }) => {
   const onChangeHandler = ({ target: { checked } }) => {
     if (Array.isArray(value)) {
@@ -28,25 +28,17 @@ const CheckBox = ({
       }
     }
   };
+  console.log(bgColor, "bgColorbgColorbgColor");
   return (
     <>
       <style jsx>
         {`
-          .form-check-input {
-            border: 1px solid #000 !important;
-            border-radius: 2px !important;
-            width: 1.1em;
-            height: 1.1rem;
-          }
-          .form-check-input:focus {
-            box-shadow: unset;
-          }
-          .form-check-input:checked {
-            background-color: ${bgColor} !important;
+          .main__wrapperCheckbox .form-check-input:checked {
+            background-color: ${bgColor && bgColor} !important;
           }
         `}
       </style>
-      <div className={classes.main}>
+      <div className={[classes.main, "main__wrapperCheckbox"].join(" ")}>
         {isLabelShow && label && (
           <label>{typeof label == "object" ? label?.title : label}</label>
         )}
